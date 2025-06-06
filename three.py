@@ -9,6 +9,6 @@ data={
     '2号门店':[120,160,123],
     '3号门店':[110,100,60],}
 df=pd.DataFrame(data)
-index=pd.Series('a','s','c',name="编号")
+index=pd.Series(['a','s','c'],name="编号")
 df.index=index
 st.table(df)
